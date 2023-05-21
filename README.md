@@ -38,8 +38,8 @@ To connect to a MySQL database, update the application.properties file with the 
 ```
 spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 spring.datasource.url = jdbc:mysql://localhost:3306/<DatabaseName>
-spring.datasource.username = <userName>
-spring.datasource.password = <password>
+spring.datasource.username = root
+spring.datasource.password = root
 spring.jpa.show-sql = true
 spring.jpa.hibernate.ddl-auto = update
 
